@@ -35,7 +35,6 @@ IP GeoCC ShoCC rvAS ShoAS rvCIDR ShoORG DNS ShoDNS ShoPorts ShoTags ShoVulns
  * geoip2
  * pyasn
  * shodan
-
  * up-to-date databases for geoip2 and pyasn (see their docs)
  * API key for shodan
 
