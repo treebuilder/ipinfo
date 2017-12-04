@@ -36,9 +36,12 @@ wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz
 '''
 
 
+PATH = '/PATH/TO/DATA/FILES'
 
-gi = geoip2.database.Reader('/home/mcl/scanip/resources/GeoLite2-Country.mmdb')
-asndb = pyasn.pyasn('/home/mcl/scanip/resources/ipasn.dat')
+
+
+gi = geoip2.database.Reader(PATH + '/GeoLite2-Country.mmdb')
+asndb = pyasn.pyasn(PATH + '/ipasn.dat')
 ip = sys.argv[1].strip()
 
 SHODAN_API_KEY = "INSERT YOUR SHODAN API KEY HERE"
