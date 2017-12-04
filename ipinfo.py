@@ -28,7 +28,7 @@ REQUIRES:
 
 
 
-http://www.cs.newpaltz.edu/%7Epletcha/NET_PY/the-protocols-tcp-ip-illustrated-volume-1.9780201633467.24290.pdf
+pyasn_util_download.py --latest
 pyasn_util_convert.py --single rib.20171201.1600.bz2 ipasn.dat
 wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz
 
